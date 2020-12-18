@@ -22,7 +22,7 @@ class App extends Component{
 
       <div>
         {this.state.count}
-        <button onClick={this.handleChange}/>
+        <button onClick={this.handleChange}>CLICK ME</button>
       </div>
     )
 
