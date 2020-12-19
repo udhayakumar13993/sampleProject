@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import logo from './logo.svg';
 import './App.css';
+import HomePage from './homepage.component'
 class App extends Component{
   constructor(){
 
@@ -23,6 +24,7 @@ class App extends Component{
       <div>
         {this.state.count}
         <button onClick={this.handleChange}>CLICK ME</button>
+        <HomePage/>
       </div>
     )
 
